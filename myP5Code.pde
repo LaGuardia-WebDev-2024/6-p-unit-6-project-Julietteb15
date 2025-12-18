@@ -12,8 +12,9 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-ellipse(4,64,132,88)
-  
+ellipse(65,100,140,100)
+ellipse(253,100,140,100)
+triangle(181,171,145,246,218,241)
 
 }
 
