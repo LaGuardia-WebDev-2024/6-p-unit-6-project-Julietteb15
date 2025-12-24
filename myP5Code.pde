@@ -11,10 +11,24 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-ellipse(65,100,140,100)
-ellipse(253,100,140,100)
-triangle(181,171,145,246,218,241)
+background(255, 251, 255);//RGB
+//face
+fill(200,0,0)
+ellipse(200,200,400,400);// face
+ellipse(200,300,100,60);// mouth
+
+//eyes
+fill(0,200,0)
+ellipse(100,150,100,70);// left eye
+ellipse(300,150,100,70);// right eye
+
+//nose
+fill(0,0,200)
+rect(180,5,35,200);//nose
+triangle(180,204,214,201,206,223);//nose
+
+//triangle ()
+
 
 }
 
